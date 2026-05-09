@@ -5,8 +5,6 @@
 ## 当前项目内容
 
 - `bilibili_comments_scraper.py`: 抓取脚本
-- `BV1eiwFz1EQx_comments.json`: 当前样例导出结果，保留层级结构
-- `BV1eiwFz1EQx_comments_flat.csv`: 当前样例导出结果，适合表格分析
 - `requirements.txt`: 依赖说明
 
 ## 环境准备
@@ -46,6 +44,7 @@ python3 bilibili_comments_scraper.py \
 
 - `*_comments.json`: 包含视频信息、根评论、楼中楼回复
 - `*_comments_flat.csv`: 平铺后的评论表，便于检索、筛选和导入 Excel
+- 导出文件默认只保留在本地，不纳入 Git 版本管理
 
 ## 说明
 
