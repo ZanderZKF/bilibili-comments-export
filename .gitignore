@@ -1,0 +1,12 @@
+# Default: ignore everything in this directory
+*
+
+# Keep Git metadata rules themselves
+!.gitignore
+!README.md
+!requirements.txt
+
+# Keep the public project files
+!bilibili_comments_scraper.py
+!BV1eiwFz1EQx_comments.json
+!BV1eiwFz1EQx_comments_flat.csv
